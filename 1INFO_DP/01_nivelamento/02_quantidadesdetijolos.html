@@ -1,0 +1,9 @@
+<script>
+const tamanho = Number (prompt("informe tamanho parede a ser construida"))
+const tijolos = parseInt (prompt("informe quantidades de tijolos "))
+
+const tijolopossui = tijolos + (19 * 19)
+const area = tamanho * (3/100)
+const quantidades = tijolopossui - area
+alert(`Vão ser necessários: ${quantidades}`)
+</script>
